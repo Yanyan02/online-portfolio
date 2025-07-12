@@ -27,7 +27,7 @@ export const Contact = () => {
       });
     } else {
       Swal.fire({
-        text: "If error persist contact me directly at babaliralph@gmail.com",
+        text: "If error persist contact me directly at mariannemaepaclian1998@gmail.com",
         icon: "error",
       });
     }
