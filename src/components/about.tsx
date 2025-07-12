@@ -20,15 +20,33 @@ export const About = () => {
           <div className="border-b border-gray-400 dark:border-gray-600 w-24 mx-auto mb-6"></div>
           <div className="prose prose-lg max-w-none text-gray-700 dark:text-gray-300 leading-relaxed">
             <p>
-              With over <span className="text-blue-600 dark:text-indigo-400 font-semibold">4 years</span> of experience in web development, 
-              I specialize in building scalable applications using modern technologies. My approach combines technical 
-              expertise with a deep understanding of user needs to create impactful digital solutions.
+              With a solid background in web development spanning over{" "}
+              <span className="text-blue-600 dark:text-indigo-400 font-semibold">
+                four years
+              </span>{" "}
+              , I build reliable, high-performing web applications tailored to
+              modern user expectations. My work is rooted in both technical
+              precision and a user-first mindset — ensuring every project is as
+              functional as it is intuitive.
             </p>
+
             <p className="mt-4">
-              I'm passionate about <span className="text-blue-600 dark:text-indigo-400 hover:text-blue-500 dark:hover:text-indigo-300 transition-colors duration-300">
-              clean code</span>, <span className="text-blue-600 dark:text-indigo-400 hover:text-blue-500 dark:hover:text-indigo-300 transition-colors duration-300">
-              performance optimization</span>, and creating intuitive user interfaces. When I'm not coding, 
-              you can find me contributing to open-source projects and sharing knowledge with the developer community.
+              I'm driven by a love for{" "}
+              <span className="text-blue-600 dark:text-indigo-400 hover:text-blue-500 dark:hover:text-indigo-300 transition-colors duration-300">
+                clean code
+              </span>
+              ,{" "}
+              <span className="text-blue-600 dark:text-indigo-400 hover:text-blue-500 dark:hover:text-indigo-300 transition-colors duration-300">
+                {" "}
+                responsive design
+              </span>
+              , and{" "}
+              <span className="text-blue-600 dark:text-indigo-400 hover:text-blue-500 dark:hover:text-indigo-300 transition-colors duration-300">
+                {" "}
+                performance tuning{" "}
+              </span>{" "}
+              . Beyond development, I actively engage with the tech community
+              through open-source contributions and knowledge sharing.
             </p>
           </div>
 
@@ -42,25 +60,37 @@ export const About = () => {
               <h4 className="text-xl font-semibold text-blue-600 dark:text-indigo-400 mb-2">
                 Web Development
               </h4>
-              <p>Crafting responsive and dynamic web applications using modern frameworks like Vue.js and React.</p>
+              <p>
+                Crafting responsive and dynamic web applications using modern
+                frameworks like Vue.js and React.
+              </p>
             </div>
             <div className="p-4 border dark:border-gray-700 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
               <h4 className="text-xl font-semibold text-blue-600 dark:text-indigo-400 mb-2">
                 Backend Engineering
               </h4>
-              <p>Designing robust APIs and server-side applications with Node.js, Express, and Python.</p>
+              <p>
+                Designing robust APIs and server-side applications with Node.js,
+                Express, and Python.
+              </p>
             </div>
             <div className="p-4 border dark:border-gray-700 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
               <h4 className="text-xl font-semibold text-blue-600 dark:text-indigo-400 mb-2">
                 UI/UX Development
               </h4>
-              <p>Ensuring a smooth user experience with well-designed interfaces and intuitive interactions.</p>
+              <p>
+                Ensuring a smooth user experience with well-designed interfaces
+                and intuitive interactions.
+              </p>
             </div>
             <div className="p-4 border dark:border-gray-700 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
               <h4 className="text-xl font-semibold text-blue-600 dark:text-indigo-400 mb-2">
                 Continuous Learning
               </h4>
-              <p>Always exploring new technologies and best practices to stay ahead in the industry.</p>
+              <p>
+                Always exploring new technologies and best practices to stay
+                ahead in the industry.
+              </p>
             </div>
           </div>
         </motion.div>

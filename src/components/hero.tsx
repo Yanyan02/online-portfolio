@@ -18,8 +18,8 @@ export const Hero = () => {
           Web Developer
         </h1>
         <p className="text-lg text-muted-foreground mb-8">
-          I build modern web applications with a focus on user experience and
-          clean code.
+          I turn structured processes into seamless web apps — combining clarity
+          in code with great user experience.
         </p>
         <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
           <Button
